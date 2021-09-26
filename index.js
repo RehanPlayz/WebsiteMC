@@ -7,7 +7,7 @@ app.get('/logo', async (req, res) => {
   res.sendFile(path.join(__dirname, 'assets', 'logo.png'));
 });
 
-app.get('/home', async (req, res) => {
+app.get('', async (req, res) => {
   res.sendFile(path.join(__dirname, 'pages', 'index.html'));
 });
 
