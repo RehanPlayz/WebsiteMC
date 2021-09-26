@@ -4,7 +4,7 @@ const path = require('path');
 const app = express();
 
 app.get('/logo', async (req, res) => {
-  res.sendFile(path.join(__dirname, 'assets', 'logo.png'));
+  res.sendFile(path.join(__dirname, 'assets', 'logo'));
 });
 
 app.get('', async (req, res) => {
